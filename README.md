@@ -59,7 +59,7 @@ This document compares the two agent project workflows in AgentBuilder and provi
 
 ### Stack/FILO Note
 - When adding subagents in the UI, ensure the workflow order matches the intended pipeline with FILO.
-eg: Creation subagents: [recommender_agent, scorer_agent,validator_agent] , order of flow: [validator_agent, scorer_agent, recommender_agent]
+- eg: Creation subagents: [recommender_agent, scorer_agent,validator_agent] , order of flow: [validator_agent, scorer_agent, recommender_agent]
 
 - UI should visually represent the order and allow reordering.
 
@@ -118,6 +118,7 @@ eg: Creation subagents: [recommender_agent, scorer_agent,validator_agent] , orde
 ---
 
 *For further details, see comments in each project's `Supervisor/agent.py` file and subagent implementations.*
+
 
 
 
