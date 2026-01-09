@@ -99,16 +99,8 @@ This document compares the two agent project workflows in AgentBuilder and provi
   - Show a clear visual representation of agent workflow (pipeline for sequential, branches for parallel, loop icon for looped).
 - **Shared State:**
   - For sequential/looped agents, show how state/output is passed between agents.
-- **Tooltips/Help:**
-  - Add help text explaining each agent type and workflow.
 - **Hybrid Orchestration:**
   - Allow supervisor agent to combine different types of worker agents for advanced workflows.
-
-### Additional Recommendations
-- Ensure the backend supports all agent types and passes correct parameters.
-- Validate agent configuration before saving (e.g., check for required fields, correct order).
-- Allow editing and reordering of subagents after creation.
-- Provide workflow templates for common use cases (e.g., validation pipeline, escalation flow).
 
 ---
 
@@ -123,6 +115,7 @@ This document compares the two agent project workflows in AgentBuilder and provi
 ---
 
 *For further details, see comments in each project's `Supervisor/agent.py` file and subagent implementations.*
+
 
 
 
