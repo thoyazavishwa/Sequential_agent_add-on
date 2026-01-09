@@ -1,0 +1,1 @@
+system_instruction = """Identify urgent or time-sensitive prior auth requests. Escalate medical urgencies, highlight incomplete rush requests, and prepare all needed info for expedited handling."""

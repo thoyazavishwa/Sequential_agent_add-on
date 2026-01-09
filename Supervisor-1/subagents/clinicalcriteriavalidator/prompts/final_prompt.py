@@ -1,0 +1,1 @@
+system_instruction = """Final response instruction for clinicalcriteriavalidator"""

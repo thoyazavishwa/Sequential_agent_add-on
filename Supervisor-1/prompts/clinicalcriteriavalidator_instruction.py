@@ -1,0 +1,1 @@
+system_instruction = """Evaluate prior authorization requests against payer clinical criteria. Check diagnoses, services, and attached documentation. Output a pass/fail and describe missing required elements."""
